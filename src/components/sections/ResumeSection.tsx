@@ -196,17 +196,6 @@ export default function ResumeSection() {
             <ExternalLink size={13} className="opacity-50" />
           </motion.a>
         </motion.div>
-
-        <motion.p
-          className="text-center font-mono text-xs text-violet-500/40 mt-6"
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ delay: 0.6 }}
-        >
-          Add your resume PDF to{" "}
-          <code className="text-violet-400/60">/public/riya-putti-resume.pdf</code>{" "}
-          and update the download handler.
-        </motion.p>
       </div>
     </section>
   );
